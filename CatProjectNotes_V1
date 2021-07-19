@@ -1,1 +1,10 @@
 
+PlayerController
+  Physics2D:
+  
+   1.判定地板
+   isGround = Physics2D.OverlapCircle(groundCheck.position, radiusCheck, groundLayer);
+   
+   overlapCircle:  与...重叠的判定方式， 属于Physics2D里的component  总共有5中判定， 细节可以查找UnityDoc
+   
+
